@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "Falco";
+  src: url(fonts/Falco-Black-Inline-Negative\ 2.ttf)
+}
+
+@font-face {
+  font-family: "Brandon";
+  src: url(fonts/brandon-printed-one_bigfontsite.com.ttf)
+}
+  
+      
+      *{
+          box-sizing: border-box;
+      }
+
+      #Products{
+        background-color: #EEEEEE;
+      }
+
+
+      .swiper {
+        width: 70%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+
+      .swiper-slide {
+        /* Center slide text vertically */
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        margin-right: 0px;
+      }
+
+      .text-container{
+        width: 30%;
+        margin: 0px;
+        margin:0;
+        padding: 30px;
+        align-items:center;
+        position: relative;
+        color: #000000;
+      }
+
+      .text-container h1{
+        font-family: "Falco";
+        font-style: normal;
+        font-size: 4.3vw; 
+        margin: 0;
+      }
+
+      .text-container h2{
+        font-family:"Brandon";
+        font-size: 1.7vw;
+        margin: 0;
+        margin-bottom: 10%;
+      }
+
+      .text-container h3{
+        font-family:"Montserrat";
+        font-size: 1.2vw;
+        font-weight: 700;
+        margin-bottom: 2%;
+      }
+      
+      .text-container p{
+        font-family:"Montserrat";
+        font-size: 1.1vw;
+        font-weight: 400;
+        margin: 0;
+        line-height: 28px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        height: 40vw;
+        padding: 45px;
+        z-index: 15;
+      }
+
+
+      .thumb img {
+        display: block;
+        height: 100%;
+        align-items: center;
+        padding: 0;
+        margin-bottom: 25px;
+        position: relative;
+        right: 0;
+        transition: all ease-in-out 0.2s;
+        cursor: pointer;
+      }
+
+      .mySwiper2 {
+        height: 80vh;
+        width: 100%;
+        margin-right: 0;
+      }
+
+      .mySwiper {
+        height: 20vh;
+        box-sizing: border-box;
+        padding-top: 20px;
+        padding-bottom: 5px;
+      }
+
+      .mySwiper .swiper-slide {
+        width: 25%;
+        height: 100%;
+        opacity: 0.4;
+      }
+
+      .mySwiper .swiper-slide-thumb-active {
+        opacity: 1;
+      }
+
+      .mySwiper img:hover{
+        transform: translateY(-5px);
+      }
+
+      .swiper-button-next, .swiper-button-prev{
+        margin: 0 5%;
+      }
+
+      .swiper-slide, .swiper-slide-active{
+        margin-right: 0 !important;
+      }
+
+
+
+      @media screen and (max-width: 960px){
+      } 
+
+      @media screen and (max-width: 768px){
+        .text-container p{
+          font-size: 1.3vw;
+          line-height: 20px;
+        }
+
+        .text-container{
+          padding: 0;
+        }
+
+        .swiper-slide img{
+          padding: 25px;
+        }
+
+        .mySwiper2{
+          height: 50vh;
+        }
+      
+        .swiper-button-next, .swiper-button-prev{
+          font-size: var(--swiper-navigation-size);
+        }
+
+      }
+
+      @media screen and (max-width: 425px){
+      
+        .text-container p{
+          font-size: 1.5vw;
+          line-height: 12px;
+        }
+
+        .text-container h3{
+          font-size: 1.8vw;
+          line-height: 15px;
+        }
+
+        .swiper-slide{
+          justify-content: center;
+        }
+      
+        #Products{
+          width: 100vw;
+        }
+
+      }

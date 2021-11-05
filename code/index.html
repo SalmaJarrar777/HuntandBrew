@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link  rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.58/dist/themes/light.css">
+    <link rel="icon" href="images/Logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider-style.css">
+    <title>Hunt and Brew</title>
+</head>
+<body>
+<!-- NAVIGATION -->
+        <div class="navbar"> 
+        <nav>    
+             <!-- DESKTOP -->
+            <ul class="nav-links">
+                <li>
+                    <a href='#About'>ABOUT</a>
+                </li>
+                <li>
+                    <a href='#OurCoffee'>OUR COFFEE</a>
+                </li>
+                <img class="logo" src="images/Logo.png" alt="hunt and brew logo">   
+                <li>
+                    <a href='#Products'>PRODUCTS</a>
+                </li>
+                <li>
+                    <a href='#Guides'>GUIDES</a>
+                </li>
+            </ul>
+             <!-- MOBILE VIEW -->
+             <div class="Logo-mobile">
+                <img src="images/Logo.png" alt="hunt and brew logo">
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        </div>
+<!-- MOUSEMOVE HERO -->
+    <div id="hero" class="screen">
+        <div id="scene">
+            <div class="bg">
+            </div>
+            <div data-depth="0.1" class="beans-back">
+                <div class="bb-image"></div> 
+            </div>
+            <div class="bean-bags">
+                <div class="bags-image"></div>
+            </div>
+            <div data-depth="0.4" class="beans-front">
+                <div class="bf-image"></div>
+            </div>
+        </div>
+        <div class="text">
+            <h1>SINGLE ORIGIN COFFEE BEANS</h1>
+        </div>
+    </div>
+
+<!-- ABOUT -->
+    <section id="About">
+        <div class="row"> 
+            <div class="sideA">
+                <div class="text-left">
+                    <h1>ABOUT HUNT AND BREW</h1>
+                    <h2>ONE REGION. SINGLE SOURCE.</h2>
+                    <p> With no compromise to quality or taste, We have hunted
+                        the globe and thoughtfully sourced high grade single 
+                        origin coffees, roasting them locally in Australia. <br><br>
+                        Each variation of our premium coffee beans come from one 
+                        source to highlight the unique flavour profile of each region. </p>
+                </div>
+                <div class="icons">
+                    <div class="Roast">
+                        <svg width="84" height="72" viewBox="0 0 84 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="Roast">
+                            <path id="p-one" d="M36 0L61.4558 10.5442L72 36L61.4558 61.4558L36 72L10.5442 61.4558L0 36L10.5442 10.5442L36 0Z" fill="#DDB594"/>
+                            <path id="aus" d="M29 27.5L20 31L22.5 44.5L22 50.5H29.5L47.5 45.5L56 51L58.5 48L63 56.5H76L82.5 37L71.5 26L65.5 13L62 23L54.5 19.5L57 14L50 13.5L44.5 20L39.5 17L29 27.5Z" stroke="black" stroke-width="1.5" stroke-linejoin="bevel"/>
+                            <path id="tas" d="M74.5 60H67L70 65.5H74L74.5 60Z" stroke="black" stroke-width="1.5" stroke-linejoin="bevel"/>
+                            </g>
+                            </svg>
+                        <h4>Roasted in <br> Australlia</h4>
+                    </div>
+                    <div class="Origin">
+                        <svg width="84" height="72" viewBox="0 0 84 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="Origin">
+                            <path id="p-two" d="M36.6375 0L62.0933 10.5442L72.6375 36L62.0933 61.4558L36.6375 72L11.1816 61.4558L0.637451 36L11.1816 10.5442L36.6375 0Z" fill="#C07655"/>
+                            <g id="bean-big">
+                            <g id="icon-beans">
+                            <path id="Vector-12" d="M22.4574 56.9928L15 36.127L22.4574 18.7388L29.9147 32.0697L30.4884 44.8211L37.3721 55.8336M22.4574 56.9928L33.9302 62.2092L41.9612 58.7316L47.124 44.8211M22.4574 56.9928L37.3721 55.8336M47.124 44.8211L44.2558 26.2737L25.8992 17L33.3566 26.8533V44.2414L37.3721 55.8336M47.124 44.8211L37.3721 55.8336" stroke="black" stroke-width="1.2" stroke-linejoin="bevel"/>
+                            <path id="Vector-13" d="M25.8992 17.5796L24.7519 22.7961M27.0465 18.7388L25.8992 25.1145M28.1938 20.4776L27.0465 27.4329M29.341 22.2164L28.1938 29.1717M31.062 24.5349L29.341 30.9105M32.7829 25.6941L29.9147 33.2289M33.3565 29.7513L29.9147 36.127M33.3565 34.3882L30.4883 39.6046M33.3565 39.025L30.4883 44.8211M33.3565 44.2414L31.6356 46.5599M33.9302 46.5599L32.7829 48.2987M25.8992 56.9928L26.4728 58.7316M27.0465 56.4132L28.1938 59.3112M28.7674 56.4132L30.4883 60.4704M31.062 56.4132L33.3565 61.6296M33.3565 56.4132L35.6511 61.05M35.0775 56.4132L37.3721 60.4704M36.7984 55.8336L39.093 59.8908M38.5193 55.254L40.8139 59.3112M39.6666 53.5151L41.9612 57.5724M40.8139 52.3559L43.1085 55.8336M41.9612 51.1967L43.6821 54.0947M43.1085 49.4579L44.2558 51.7763M44.2558 48.2987L45.4031 50.0375" stroke="black" stroke-width="0.5"/>
+                            </g>
+                            </g>
+                            <g id="bean-small">
+                            <path id="Vector-12_2" d="M54.5736 38.9803L54 29.127L59.1628 15.7961L71.7829 10V19.8533L65.4729 22.7513L57.4419 33.7638M54.5736 38.9803L58.5891 45.3559M54.5736 38.9803L57.4419 33.7638M58.5891 45.3559H73.5039L82.6822 32.6046V21.0125M58.5891 45.3559L77.5194 34.3434L82.6822 21.0125M82.6822 21.0125L74.0775 10.5796L73.5039 21.5921L57.4419 33.7638" stroke="black" stroke-width="1.2" stroke-linejoin="bevel"/>
+                            <path id="Vector-13_2" d="M71.7829 10L74.0775 12.898M71.7829 12.3184L74.0775 15.2164M71.7829 15.2164L73.5038 16.9553M71.7829 17.5349L73.5038 19.2737M71.7829 19.8533L73.5038 21.5921M70.062 20.4329L72.3565 22.7513M68.341 21.5921L70.6356 23.9105M66.6201 22.7513L68.9147 25.0697M64.8992 23.9105L67.1938 26.229M63.7519 25.6493L65.4728 27.3882M62.6046 26.8086L64.3255 28.5474M61.4573 28.5474L62.6046 29.7066M80.3876 27.3882V35.5026M78.6666 32.025V37.8211M76.372 34.923V41.2987M74.0775 36.0822V44.7763M71.7829 37.8211V45.3559M70.062 38.4007V45.3559M67.7674 40.1395V45.3559M65.4728 41.2987V45.3559M63.7519 42.4579V45.3559" stroke="black" stroke-width="0.5"/>
+                            </g>
+                            </g>
+                            </svg>
+                        <h4 >Single<br> Origin</h4>
+                    </div>
+                    <div class="Source">
+                        <svg width="83" height="72" viewBox="0 0 83 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="Source">
+                            <path id="p-three" d="M36.2651 0L61.721 10.5442L72.2651 36L61.721 61.4558L36.2651 72L10.8093 61.4558L0.265137 36L10.8093 10.5442L36.2651 0Z" fill="#929A7F"/>
+                            <g id="leaf3">
+                            <path id="Vector-14" d="M44 62L50.6118 41.5L82.3487 34L79.7039 55L44 62ZM44 62L70.4474 44.5" stroke="black" stroke-width="1.2" stroke-linejoin="bevel"/>
+                            <path id="Vector-15" d="M46.2039 55L47.0855 60L50.1711 60.5M47.5263 52L48.4079 59L53.2566 60M48.8487 47L49.7303 58L56.3421 59.5M51.0526 41.5L51.9342 56.5L60.3092 58.5M54.1382 41L54.5789 55L65.1579 57.5" stroke="black" stroke-width="0.5" stroke-linejoin="bevel"/>
+                            </g>
+                            <g id="leaf2">
+                            <path id="Vector-14_2" d="M42.9671 43L39 22.5L54.8684 10L60.1579 23.5L42.9671 43ZM42.9671 43L51.7829 19.5" stroke="black" stroke-width="1.2" stroke-linejoin="bevel"/>
+                            <path id="Vector-15_2" d="M41.6447 36.5L43.8487 39.5L46.9342 38.5M41.204 34L44.7303 38L47.8158 37M40.3224 30.5L45.6118 36L50.4605 34.5M39.8816 27L46.4934 33.5L53.1053 31.5M39.4408 22.5L47.8158 30.5L56.1908 27.5" stroke="black" stroke-width="0.5" stroke-linejoin="bevel"/>
+                            </g>
+                            <g id="leaf1">
+                            <path id="Vector-14_3" d="M38.3618 61L25.5789 46.5L20.7303 33.5M15 25L17.6447 48L38.8026 62L33.5132 36.5L15 25Z" stroke="black" stroke-width="1.2" stroke-linejoin="bevel"/>
+                            <path id="Vector-15_3" d="M37.4803 55.5L36.1579 58.5L33.9539 59M36.5987 53L35.2763 57L31.75 57.5M36.1579 49.5L33.5131 55.5L29.9868 56M35.7171 46L32.1908 54L27.7829 54.5M34.8355 42.5L30.4276 52L24.6974 52.5" stroke="black" stroke-width="0.5" stroke-linejoin="bevel"/>
+                            </g>
+                            </g>
+                            </svg>
+                    <h4 >Sustainably<br> Sourced</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="sideB">
+                <img src="images/Hip_image.png" class="hip" alt="hunt and brew drink">
+            </div>
+            </div>
+            <audio id="audioOne">
+                <source src="audio/Roast.mp3" type="audio/mp3" class="audio1"/>
+            </audio>
+            <audio id="audioTwo">
+                <source src="audio/Single%20Origin.mp3" type="audio/mp3" class="audio2"/>
+            </audio>
+            <audio id="audioThree">
+                <source src="audio/Susutainable.mp3" type="audio/mp3" class="audio3"/>
+            </audio>
+    </section>
+<!-- OUR COFFEE -->
+    <section id="OurCoffee">
+        <h1>NO FUNNY BUSINESS, JUST GOOD COFFEE.</h1>
+        <div class="steps-container">
+            <div class="step one">
+                <h3>1</h3>
+                <img src="images/steps/coffee%20beans.svg" alt="100% arabica beans">
+                <p>100% SINGLE ORIGIN <br> ARABICA COFFEE</p>
+            </div>
+            <div class="step two">
+                <h3>2</h3>
+                <img src="images/steps/sun%20dried.svg" alt="sun dried breans">
+                <p> BEANS ARE SUN-DRIED,<br> HULLED, AND GRADED</p>
+            </div>
+            <div class="step three">
+                <h3>3</h3>
+                <img src="images/steps/roasted.svg" alt="roasted beans">
+                <p>LOCALLY ROASTED AND <br> GROUND TO PROFILE</p>
+            </div>
+            <div class="step four">
+                <h3>4</h3>
+                <img src="images/steps/vaccum.svg" alt="bean-bag">
+                <p>VACCUM SEALED TO <br> PRESERVE FLAVOUR</p>
+            </div>
+            <div class="step five">
+                <h3>5</h3>
+                <img src="images/steps/milk.svg" alt="coffee drink">
+                <p>SLOWLY BREWED AND <br> TRIPLE FILTERED WITH A <br> DASH OF FULL CREAM MILK</p>
+            </div>
+        </div>
+    </section>
+<!-- OUR PRODUCTS -->
+    <section id="Products">
+        <div
+      style="--swiper-navigation-color: rgb(0, 0, 0); --swiper-pagination-color: #fff"
+      class="swiper mySwiper2">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/products-cropped/BRAZIL-DRINK.png" alt="brazil-drink"/>
+            <div class="text-container"> 
+                <h1>BRAZIL</h1>
+                <h2>CERRADO</h2>
+                <h3>Description</h3>
+                <p>A clean bean that has bright notes of berry, with a nutty caramel finish. Locally roasted and ground to profile, Hunt and Brew coffee is slowly brewed and triple filtered for maximum flavour extraction.</p>
+                <h3>About</h3>
+                <p>Serving Size- 400ml<br> Caffeine - 224mg <br> Sugars - 6.4g</p>
+            </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/products-cropped/COLOMBIA-DRINK.png" alt="colombia-drink"/>
+            <div class="text-container"> 
+                <h1>COLOMBIA</h1>
+                <h2>LA UNIÓN, NARIÑO</h2>
+                <h3>Description</h3>
+                <p>A soft brew that has citrus and sweet notes, with a smoky finish. Locally roasted and ground to profile, Hunt and Brew coffee is slowly brewed and triple filtered for maximum flavour extraction.</p>
+                <h3>About</h3>
+                <p>Serving Size- 400ml<br> Caffeine - 236mg <br> Sugars - 6.4g</p>
+            </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/products-cropped/HONDURAS-DRINK.png" alt="honduras-drink"/>
+            <div class="text-container"> 
+                <h1>HONDURAS</h1>
+                <h2>SAN JUAN, INTIBUCÁ</h2>
+                <h3>Description</h3>
+                <p>A strong bean that has notes of citrus and hazelnut with a cocoa finish. Locally roasted and ground to profile, Hunt and Brew coffee is slowly brewed and triple filtered for maximum flavour extraction.</p>
+                <h3>About</h3>
+                <p>Serving Size- 400ml<br> Caffeine - 250mg <br> Sugars - 6.4g</p>
+            </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/products-cropped/BRAZIL-BEAN.png" alt="brazil-beans"/>
+            <div class="text-container"> 
+                <h1>BRAZIL</h1>
+                <h2>CERRADO</h2>
+                <h3>Description</h3>
+                <p>A clean bean that has nutty and bright citrus notes, with a caramel finish.</p>
+                <h3>About</h3>
+                <p>100% Arabica Coffee.</p>
+            </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/products-cropped/COLOMBIA-BEAN.png" alt="colombia-beans"/>
+            <div class="text-container"> 
+                <h1>COLOMBIA</h1>
+                <h2>LA UNIÓN, NARIÑO</h2>
+                <h3>Description</h3>
+                <p>A soft brew that has citrus and sweet caramel notes, with a smoky finish.</p>
+                <h3>About</h3>
+                <p>100% Arabica Coffee.</p>
+            </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/products-cropped/HONDURAS-BEAN.png" alt="honduras-beans"/>
+            <div class="text-container"> 
+                <h1>HONDURAS</h1>
+                <h2>SAN JUAN, INTIBUCÁ</h2>
+                <h3>Description</h3>
+                <p>A strong bean that has notes of citrus and hazelnut with a cocoa finish.</p>
+                <h3>About</h3>
+                <p>100% Arabica Coffee.</p>
+            </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/products-cropped/ETHIOPIA-BEAN.png" alt="ethiopia-beans">
+            <div class="text-container"> 
+                <h1>ETHIOPIA</h1>
+                <h2>YIRGACHEFFE</h2>
+                <h3>Description</h3>
+                <p>A clean bean that has nutty and bright citrus notes, with a caramel finish.</p>
+                <h3>About</h3>
+                <p>100% Arabica Coffee.</p>
+            </div>
+        </div>
+
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div thumbsSlider="" class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide thumb">
+          <img src="images/Thumbnails/BRAZIL-COLD-BREW-COFFEE-400ml.png" alt="brazil-drink-option"/>
+        </div>
+        <div class="swiper-slide thumb">
+          <img src="images/Thumbnails/COLOMBIA-COLD-BREW-COFFEE-400ml.png" alt="colombia-drink-option"/>
+        </div>
+        <div class="swiper-slide thumb">
+          <img src="images/Thumbnails/HONDURAS-COLD-BREW-COFFEE-400ml%202.png" alt="honduras-drink-option"/>
+        </div>
+        <div class="swiper-slide thumb">
+          <img src="images/Thumbnails/Shopify_H_B_CoffeeBeans_Brazil_1024x1024@2x.png" alt="brazil-beans-option"/>
+        </div>
+        <div class="swiper-slide thumb">
+          <img src="images/Thumbnails/Shopify_H_B_CoffeeBeans_Colombia_1024x1024@2x-1.png" alt="colombia-beans-option"/>
+        </div>
+        <div class="swiper-slide thumb">
+          <img src="images/Thumbnails/Shopify_H_B_CoffeeBeans_Colombia_1024x1024@2x.png" alt="honduras-beans-option"/>
+        </div>
+        <div class="swiper-slide thumb">
+          <img src="images/Thumbnails/Shopify_H_B_CoffeeBeans_Ethiopia_1024x1024@2x.png" alt="ethiopia-beans-option"/>
+        </div>
+      </div>
+    </div>
+    </section>
+<!-- GUIDES -->
+    <section id= "Guides">
+        <div class="bg2">
+            <h1>BREW YOUR WAY</h1>
+            <div class="guides-container">
+                <div class="guide press"> 
+                    <sl-tooltip content="Beginner">
+                    <img src="images/Group%2072.png" alt="French Press">
+                    <h2>FRENCH PRESS</h2>
+                    </sl-tooltip>
+                </div>
+                <div class="guide moka">
+                    <sl-tooltip content="Intermediate"> 
+                    <img src="images/Group%2073.png" alt="Moka Pot">
+                    <h2>MOKA POT</h2>
+                    </sl-tooltip>
+                </div>
+                <div class="guide pour"> 
+                    <sl-tooltip content="Intermediate"> 
+                    <img src="images/Group%2074.png" alt="Pour Over">
+                    <h2>POUR OVER</h2>
+                    </sl-tooltip>
+                </div>
+                <div class="guide espresso"> 
+                    <sl-tooltip content="Advanced"> 
+                    <img src="images/Group%2075.png" alt="Espresso">
+                    <H2>ESPRESSO</H2>
+                    </sl-tooltip>
+                </div>
+            </div>
+        </div>
+    <footer>
+        <div class="footer-line"></div>
+            <div class="footer">    
+                <div class="footer-info left">
+                    <h4>Contact Us</h4>
+                    <sl-form class="input-validation-type">
+                        <sl-input class="input-feild" type="Name" placeholder="Full Name" required></sl-input>
+                        <br>
+                        <sl-input class="input-feild" type="Email"  placeholder="Email" required></sl-input>
+                        <br>
+                        <sl-button class="button" type="primary" submit>Submit</sl-button>
+                    </sl-form>
+                </div>
+                <div class="footer-info right">
+                    <h4>Come say Hi!</h4>
+                    <div class="icons-footer">
+                        <sl-icon class="social" name="instagram"></sl-icon>
+                        <sl-icon class="social" name="twitter"></sl-icon>
+                        <sl-icon class="social" name="facebook"></sl-icon>
+                    <p>All copyright material used remains <br> copyright of the respective owners.<br> <br> Designed by Salma Jarrar</p>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    </section>
+
+
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.58/dist/shoelace.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
